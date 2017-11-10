@@ -30,5 +30,6 @@ public class MainActivityTests {
         onView(withText("Greet")).perform(click());
         onView(withId(R.id.messageTextView))
                 .check(matches(withText("Hello, Lourdes!")));
+
     }
 }
